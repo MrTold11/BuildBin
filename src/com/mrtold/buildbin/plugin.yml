@@ -1,0 +1,15 @@
+name: BuildBin
+version: 1.0
+author: Mr_Told
+main: com.mrtold.buildbin.BuildBin
+api-version: 1.17
+commands:
+  copybuild:
+    description: Save selected region
+    usage: /copybuild <filename>
+  pastebuild:
+    description: Insert saved region
+    usage: /pastebuild <filename>
+  bin:
+    description: Get selection item
+    usage: /bin
